@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const yargs = require('yargs');
 const format = require('date-fns/format');
 const add = require('date-fns/add');
