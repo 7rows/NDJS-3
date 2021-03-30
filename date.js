@@ -8,11 +8,12 @@ const sub = require('date-fns/sub');
 
 const argv = yargs
     .command('current', 'Current Date ISO')
+    .command('add', 'Get new date in feature ISO')
+    .command('sub', 'Get date in the back ISO')
     .alias('day','d')
     .alias('month','m')
     .alias('year', 'y')
-    .command('add', 'Get new date in feature ISO')
-    .command('sub', 'Get date in the back ISO')
+    .alias('help', 'h')
     .help()
     .argv
 
