@@ -21,6 +21,7 @@
     "yargs": "^16.2.0"
   },
   "bin": {
-    "cmd": "date.js"
+    "cmd": "date.js",
+    "game": "game.js"
   }
 }
